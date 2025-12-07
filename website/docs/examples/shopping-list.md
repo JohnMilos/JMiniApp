@@ -1,6 +1,7 @@
 # Shopping List App Tutorial
 
-In this tutorial, we'll build a complete Shopping List application using vanilla JavaScript. This practical example demonstrates how to create a functional web application with add, remove, and view capabilities.
+In this tutorial, we'll build a complete Shopping List application using vanilla JavaScript. This practical example
+demonstrates how to create a functional web application with add, remove, and view capabilities.
 
 ## Prerequisites
 
@@ -141,8 +142,91 @@ document.addEventListener('DOMContentLoaded', () => {
     window.app = new ShoppingListApp();
 });
 
-## Step 5: Adding more features
+## Step 5: Testing the Application
 
-For example: Price an Quantity
+Open index.html in your browser
 
+Test adding items
+
+Test deleting items
+
+Test clearing all items
+
+Refresh the page to verify persistence
+
+
+## Step 6: Deployment
+
+GitHub Pages:
+
+bash
+# Push to gh-pages branch
+git checkout -b gh-pages
+git push origin gh-pages
+Netlify/Vercel: Drag and drop your folder
+
+Any static hosting service
+
+Common Issues and Solutions
+Issue 1: localStorage not working
+Solution: Run on local server (not file://)
+
+Issue 2: Buttons not responding
+Solution: Check browser console for errors
+
+Issue 3: Layout issues
+Solution: Add viewport meta tag and test responsive design
+
+Next Steps
+Enhance your application:
+
+Add item categories
+
+Implement search functionality
+
+Add item quantities
+
+Create multiple lists
+
+Add dark mode
+
+Conclusion
+You've built a functional shopping list app that demonstrates:
+
+DOM manipulation
+
+Event handling
+
+localStorage usage
+
+CRUD operations
+
+Responsive design
+
+This foundation can be extended to build more complex applications.
+
+Author
+John Milos
+Date: December 2024
+
+
+## **PARA GUARDAR EN NANO:**
+
+1. Pega todo el código de arriba
+2. Presiona `Ctrl + O` (para guardar)
+3. Presiona `Enter` (confirmar)
+4. Presiona `Ctrl + X` (para salir)
+
+## **LUEGO HAZ EL COMMIT:**
+
+```bash
+# Agrega el tutorial
+git add website/docs/examples/shopping-list.md
+
+# Agrega tu aplicación
+git add examples/shopping-list/
+
+# Haz commit
+git commit -m "feat: complete shopping list app with tutorial" (En las comillas puede ir la isntrucción
+que te sea mas facil)
 
